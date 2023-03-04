@@ -1,0 +1,7 @@
+<form [formGroup]="searchForm">
+  <mat-form-field>
+    <mat-label>Search by city name</mat-label>
+    <input matInput formControlName="name">
+  </mat-form-field>
+  <button mat-raised-button color="primary" (click)="onSearch()">Submit</button>
+</form>
